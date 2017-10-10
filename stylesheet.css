@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /************** MEDIA QUERIES ************/
 
 #splash .logo img {
@@ -9,3 +10,32 @@
     width: 15vw;
     box-sizing: content-box;
 }
+=======
+<<<<<<< HEAD
+
+=======
+#mad .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#vin .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+>>>>>>> origin/master
+>>>>>>> origin/master
