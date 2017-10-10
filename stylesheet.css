@@ -30,6 +30,11 @@
     margin: 0 auto;
     margin: 0 30vw 0 30wv;
     background-color: antiquewhite;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+    margin: 0 25vw 0 25vw;
+    padding: 1em 1em 1em 1em;
 >>>>>>> origin/master
 }
 
@@ -45,7 +50,58 @@
     justify-content: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> origin/master
 =======
+>>>>>>> origin/master
+=======
+
+
+/******* skrift ************/
+
+h1 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 1.9em;
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+p {
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+#video {
+    /*    width: 80vw;*/
+}
+
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+}
 >>>>>>> origin/master
