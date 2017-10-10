@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-
-=======
-#mad .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#vin .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.sectionwrapper {
+    margin: 0 auto;
+    margin: 0 30vw 0 30wv;
+    background-color: antiquewhite;
 }
 
 #kontakt .sectionwrapper {
@@ -24,4 +15,3 @@
     flex-wrap: wrap;
     justify-content: center;
 }
->>>>>>> origin/master
