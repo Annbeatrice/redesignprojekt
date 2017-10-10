@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /************** MEDIA QUERIES ************/
 
 #splash .logo img {
@@ -24,6 +25,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+=======
+.sectionwrapper {
+    margin: 0 auto;
+    margin: 0 30vw 0 30wv;
+    background-color: antiquewhite;
+>>>>>>> origin/master
 }
 
 #kontakt .sectionwrapper {
@@ -37,5 +44,8 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+<<<<<<< HEAD
 >>>>>>> origin/master
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
