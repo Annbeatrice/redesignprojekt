@@ -48,3 +48,20 @@ p {
     font-size: 1.4em;
     margin-left: 10px;
 }
+
+#video {
+    /*    width: 80vw;*/
+}
+
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+}
