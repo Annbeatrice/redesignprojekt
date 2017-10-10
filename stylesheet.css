@@ -1,107 +1,96 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/************** MEDIA QUERIES ************/
+                header nav {
+                    font-family: 'martel', serif;
+                    text-align: center;
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 30px 30px 0 30px;
+                    border-bottom: solid black 1px;
+                    border-top: solid black 1px;
+                    padding: 10px 0;
+                }
 
-#splash .logo img {
-    width: 100%;
-}
+                header nav a {
+                    text-decoration: none;
+                    color: black;
+                }
 
-#splash .logo {
-    padding: 20px;
-    width: 15vw;
-    box-sizing: content-box;
-}
-=======
-<<<<<<< HEAD
+                .menubox {
+                    position: relative;
+                }
 
-=======
-#mad .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+                .menubox span {
+                    cursor: pointer;
+                }
 
-#vin .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-=======
-.sectionwrapper {
-    margin: 0 auto;
-    margin: 0 30vw 0 30wv;
-    background-color: antiquewhite;
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
-    margin: 0 25vw 0 25vw;
-    padding: 1em 1em 1em 1em;
->>>>>>> origin/master
-}
+                .menubox ul {
+                    display: none;
+                    list-style: none;
+                    position: absolute;
+                    left: -50%;
+                    padding: 25px 0;
+                    margin: 0;
+                }
 
-#kontakt .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+                .menubox:hover>ul {
+                    display: block;
+                }
+                /************** MEDIA QUERIES ************/
 
-#om .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/master
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-=======
+                #splash .logo img {
+                    width: 100%;
+                }
 
+                #splash .logo {
+                    padding: 20px;
+                    width: 15vw;
+                    box-sizing: content-box;
+                }
 
-/******* skrift ************/
+                #mad .sectionwrapper {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
 
-h1 {
-    font-family: "Martel";
-    font-weight: 400;
-    font-size: 3em;
-    margin-left: 10px;
-}
+                #vin .sectionwrapper {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
 
-h2 {
-    font-family: "Martel";
-    font-weight: 400;
-    font-size: 1.9em;
-    margin-left: 10px;
-}
+                .sectionwrapper {
+                    margin: 0 auto;
+                    margin: 0 30vw 0 30wv;
+                    background-color: transparent;
+                    margin: 0 25vw 0 25vw;
+                    padding: 1em 1em 1em 1em;
+                }
+                /******* skrift ************/
 
-h3 {
-    font-family: "Martel";
-    font-weight: 400;
-    font-size: 1.4em;
-    margin-left: 10px;
-}
+                h1 {
+                    font-family: "Martel";
+                    font-weight: 400;
+                    font-size: 3em;
+                    margin-left: 10px;
+                }
 
-p {
-    font-family: "Open+Sans";
-    font-weight: 400;
-    font-size: 1.4em;
-    margin-left: 10px;
-}
+                h2 {
+                    font-family: "Martel";
+                    font-weight: 400;
+                    font-size: 1.9em;
+                    margin-left: 10px;
+                }
 
-#video {
-    /*    width: 80vw;*/
-}
+                h3 {
+                    font-family: "Martel";
+                    font-weight: 400;
+                    font-size: 1.4em;
+                    margin-left: 10px;
+                }
 
-.hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
-}
-
-.hs-responsive-embed-youtube {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 25px;
-}
->>>>>>> origin/master
+                p {
+                    font-family: "Open+Sans";
+                    font-weight: 400;
+                    font-size: 1.4em;
+                    margin-left: 10px;
+                }
