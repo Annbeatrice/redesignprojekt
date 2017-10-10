@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+
+=======
+#mad .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#vin .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+>>>>>>> origin/master
