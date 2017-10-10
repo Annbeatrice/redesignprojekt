@@ -1,0 +1,11 @@
+/************** MEDIA QUERIES ************/
+
+#splash .logo img {
+    width: 100%;
+}
+
+#splash .logo {
+    padding: 20px;
+    width: 15vw;
+    box-sizing: content-box;
+}
