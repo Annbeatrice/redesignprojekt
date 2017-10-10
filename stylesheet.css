@@ -15,3 +15,34 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+/******* skrift ************/
+
+h1 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 1.9em;
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: "Martel";
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+p {
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-left: 10px;
+}
