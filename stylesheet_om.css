@@ -74,7 +74,7 @@ p {
 .sectionwrapper {
     margin: 0 auto;
     margin: 0 30vw 0 30vw;
-    background-color: bl;
+    background-color: rgba(250, 235, 215, 0.74);
     margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
@@ -115,9 +115,6 @@ p {
     box-sizing: content-box;
 }
 
-
-/*
 #om {
-    background: url(bagrund/billede_1700.jpg);
+    background: url(bagrund/om_os.jpg);
 }
-*/

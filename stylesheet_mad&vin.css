@@ -142,3 +142,7 @@
                     font-size: 1em;
                     margin-left: 10px;
                 }
+
+                #mad {
+                    background: url(bagrund/bagrund_mad.jpg);
+                }
