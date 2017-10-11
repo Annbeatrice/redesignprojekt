@@ -15,6 +15,12 @@ header nav a {
     color: black;
 }
 
+.navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
 .forside {
     margin: 0;
     padding-top: 15px;
@@ -76,6 +82,8 @@ img {
 #mad .column {
     border-bottom: solid 1px black;
     width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 0 10px 0;
 }
 
 #mad .column p {
