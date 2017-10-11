@@ -1,4 +1,4 @@
-header nav {
+nav {
     font-family: 'martel', serif;
     text-align: center;
     display: flex;
@@ -8,9 +8,12 @@ header nav {
     border-top: solid black 1px;
     padding: 10px 0;
     background-color: white;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
-header nav a {
+nav a {
     text-decoration: none;
     color: black;
 }
@@ -42,11 +45,11 @@ header nav a {
     display: block;
 }
 
-header nav a:hover {
+nav a:hover {
     color: #af1a2a;
 }
 
-header nav span:hover {
+nav span:hover {
     color: #8a0000;
 }
 
