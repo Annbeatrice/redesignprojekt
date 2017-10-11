@@ -59,29 +59,6 @@ p {
 }
 
 
-/**** VIDEO ****/
-
-#video {
-    /*    width: 80vw;*/
-}
-
-.hs-responsive-embed-youtube iframe {
-    position: absolute;
-    width: 100%!important;
-    height: 100%!important;
-}
-
-.hs-responsive-embed-youtube {
-    position: relative;
-    padding-bottom: 60%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 25px;
-}
-
-
-/**** VIDEO SLUT ****/
-
-
 /************** MEDIA QUERIES ************/
 
 #splash .logo img {
