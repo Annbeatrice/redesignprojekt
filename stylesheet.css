@@ -56,11 +56,6 @@
                     border-top: solid 1px;
                 }
 
-                #mad .column p {
-                    border-bottom: solid 1px black;
-                    padding: 0 0 26px 0px;
-                }
-
                 #vin .sectionwrapper {
                     display: flex;
                     flex-wrap: wrap;
@@ -101,6 +96,14 @@
                 }
 
                 h3 {
+                    font-family: 'martel';
+                    font-weight: 400;
+                    font-size: 1.4em;
+                    margin-left: 10px;
+                    text-align: center;
+                }
+
+                h4 {
                     font-family: 'martel';
                     font-weight: 400;
                     font-size: 1.4em;
