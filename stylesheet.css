@@ -54,6 +54,11 @@
 
                 #mad .column {
                     border-bottom: solid 1px black;
+                    width: 100%;
+                }
+
+                #mad .column p {
+                    text-align: center;
                 }
 
                 #vin .sectionwrapper {
@@ -74,10 +79,6 @@
                     margin: 0 25vw 0 25vw;
                     padding: 1em 1em 1em 1em;
                 }
-
-                .column {
-                    text-align: justify;
-                }
                 /******* skrift ************/
 
                 h1 {
@@ -93,6 +94,7 @@
                     font-size: 1.9em;
                     margin-left: 10px;
                     text-transform: uppercase;
+                    text-align: center;
                 }
 
                 h3 {
@@ -106,7 +108,7 @@
                 h4 {
                     font-family: 'martel';
                     font-weight: 400;
-                    font-size: 1.4em;
+                    font-size: 1em;
                     margin-left: 10px;
                     text-align: center;
                 }
@@ -114,6 +116,6 @@
                 p {
                     font-family: "Open+Sans";
                     font-weight: 400;
-                    font-size: 1.4em;
+                    font-size: 1em;
                     margin-left: 10px;
                 }
