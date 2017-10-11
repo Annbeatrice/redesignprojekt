@@ -61,14 +61,16 @@ h2 {
     font-weight: 400;
     font-size: 1.9em;
     margin-left: 1px;
+    color: white;
 }
 
 p {
     font-family: "Open+Sans";
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: -2px;
     text-align: justify;
+    color: white;
 }
 
 .sectionwrapper {
@@ -92,9 +94,6 @@ p {
     box-sizing: content-box;
 }
 
-
-/*
 #kontakt {
-    background: url(bagrund/billede.jpg)
+    background: url(bagrund/vinogtavle.jpg);
 }
-*/

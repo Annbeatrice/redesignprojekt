@@ -1,4 +1,4 @@
-nav {
+header nav {
     font-family: 'martel', serif;
     text-align: center;
     display: flex;
@@ -8,12 +8,9 @@ nav {
     border-top: solid black 1px;
     padding: 10px 0;
     background-color: white;
-    top: -1px;
-    position: -webkit-sticky;
-    position: sticky;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: black;
 }
@@ -35,23 +32,26 @@ nav a {
     display: none;
     list-style: none;
     position: absolute;
-    left: -20%;
+    left: -50%;
+    padding: 25px 0;
     margin: 0;
-    padding: 30px 12px 0 12px;
-    background-color: rgba(255, 255, 255, 0.71);
-    z-index: 1;
 }
 
 .menubox:hover>ul {
     display: block;
 }
 
-nav a:hover {
+header nav a:hover {
     color: #af1a2a;
 }
 
-nav span:hover {
+header nav span:hover {
     color: #8a0000;
+}
+
+.menubox ul {
+    padding: 0 5px 0 0;
+    background-color: rgba(255, 255, 255, 0.58);
 }
 
 
@@ -100,7 +100,7 @@ img {
 .sectionwrapper {
     margin: 0 auto;
     margin: 0 30vw 0 30vw;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.65);
     margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
@@ -143,6 +143,10 @@ h4 {
 p {
     font-family: "Open+Sans";
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: 10px;
+}
+
+#mad {
+    background: url(bagrund/madogvin.jpg);
 }
