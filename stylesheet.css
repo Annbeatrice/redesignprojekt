@@ -52,10 +52,18 @@
                     justify-content: center;
                 }
 
+                #mad .column {
+                    border-top: solid 1px;
+                }
+
                 #vin .sectionwrapper {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: center;
+                }
+
+                #vin .sectionwrapper ul {
+                    list-style-type: none;
                 }
 
                 .sectionwrapper {
@@ -64,6 +72,10 @@
                     background-color: transparent;
                     margin: 0 25vw 0 25vw;
                     padding: 1em 1em 1em 1em;
+                }
+
+                .column {
+                    text-align: justify;
                 }
                 /******* skrift ************/
 
@@ -79,6 +91,7 @@
                     font-weight: 400;
                     font-size: 1.9em;
                     margin-left: 10px;
+                    text-transform: uppercase;
                 }
 
                 h3 {
