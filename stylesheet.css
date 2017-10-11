@@ -1,3 +1,4 @@
+<<<<<<< HEAD
                 header nav {
                     font-family: 'martel', serif;
                     text-align: center;
@@ -147,3 +148,171 @@
                 #mad {
                     background: url(bagrund/bagrund_vin.jpg);
                 }
+=======
+header nav {
+    font-family: 'martel', serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px 0 30px;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.forside {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.menubox {
+    position: relative;
+}
+
+.menubox span {
+    cursor: pointer;
+}
+
+.menubox ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: -50%;
+    margin: 0;
+    padding: 30px 12px 0 12px;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+.menubox:hover>ul {
+    display: block;
+}
+
+header nav a:hover {
+    color: #af1a2a;
+}
+
+header nav span:hover {
+    color: #8a0000;
+}
+
+
+/************** MEDIA QUERIES ************/
+
+#splash .logo img {
+    width: 100%;
+}
+
+#splash .logo {
+    padding: 20px;
+    width: 15vw;
+    box-sizing: content-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+#mad .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mad .column {
+    border-bottom: solid 1px black;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0 0 10px 0;
+}
+
+#mad .column p {
+    text-align: center;
+}
+
+#vin {
+    border-bottom: solid 1px black;
+    margin: 0 30px 10px 30px;
+}
+
+
+}
+#vin .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#vin .sectionwrapper ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+#vin .sectionwrapper li {
+    padding: 0 0 10px 0;
+}
+#vin .sectionwrapper div {
+    width: 100%;
+}
+#vin .sectionwrapper a {
+    text-decoration: underline;
+    color: black;
+}
+#vin .sectionwrapper a:hover {
+    color: #af1a2a;
+    font-size: 15px;
+}
+.sectionwrapper {
+    margin: 0 auto;
+    margin: 0 30vw 0 30vw;
+    background-color: transparent;
+    margin: 0 25vw 0 25vw;
+    padding: 1em 1em 1em 1em;
+}
+
+/******* skrift ************/
+h1 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 3em;
+    margin-left: 10px;
+}
+h2 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 1.9em;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 10px;
+    text-align: center;
+}
+h4 {
+    font-family: 'martel';
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 10px;
+    text-align: center;
+}
+p {
+    font-family: "Open+Sans";
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 10px;
+}
+>>>>>>> origin/master
