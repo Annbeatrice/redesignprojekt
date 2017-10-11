@@ -95,6 +95,16 @@
                     list-style-type: none;
                 }
 
+                #vin .sectionwrapper a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                #vin .sectionwrapper a:hover {
+                    color: #af1a2a;
+                    font-size: 20px;
+                }
+
                 .sectionwrapper {
                     margin: 0 auto;
                     margin: 0 30vw 0 30vw;
