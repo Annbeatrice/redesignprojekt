@@ -98,7 +98,7 @@
                 .sectionwrapper {
                     margin: 0 auto;
                     margin: 0 30vw 0 30vw;
-                    background-color: transparent;
+                    background-color: white;
                     margin: 0 25vw 0 25vw;
                     padding: 1em 1em 1em 1em;
                 }
@@ -141,4 +141,9 @@
                     font-weight: 400;
                     font-size: 1em;
                     margin-left: 10px;
+                }
+
+                #vin,
+                #mad {
+                    background: url(bagrund/bagrund_vin.jpg);
                 }
