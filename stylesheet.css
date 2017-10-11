@@ -53,7 +53,7 @@
                 }
 
                 #mad .column {
-                    border-top: solid 1px;
+                    border-bottom: solid 1px black;
                 }
 
                 #vin .sectionwrapper {
@@ -98,7 +98,7 @@
                 h3 {
                     font-family: 'martel';
                     font-weight: 400;
-                    font-size: 1.4em;
+                    font-size: 1.2em;
                     margin-left: 10px;
                     text-align: center;
                 }
