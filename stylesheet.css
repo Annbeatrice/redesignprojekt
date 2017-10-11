@@ -7,11 +7,17 @@
                     border-bottom: solid black 1px;
                     border-top: solid black 1px;
                     padding: 10px 0;
+                    background-color: white;
                 }
 
                 header nav a {
                     text-decoration: none;
                     color: black;
+                }
+
+                .forside {
+                    margin: 0;
+                    padding-top: 10px;
                 }
 
                 .menubox {
@@ -34,6 +40,19 @@
                 .menubox:hover>ul {
                     display: block;
                 }
+
+                header nav a:hover {
+                    color: #af1a2a;
+                }
+
+                header nav span:hover {
+                    color: #8a0000;
+                }
+
+                .menubox ul {
+                    padding: 0 5px 0 0;
+                    background-color: rgba(255, 255, 255, 0.58);
+                }
                 /************** MEDIA QUERIES ************/
 
                 #splash .logo img {
@@ -44,6 +63,10 @@
                     padding: 20px;
                     width: 15vw;
                     box-sizing: content-box;
+                }
+
+                img {
+                    max-width: 100%;
                 }
 
                 #mad .sectionwrapper {
