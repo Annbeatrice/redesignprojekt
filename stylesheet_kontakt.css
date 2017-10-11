@@ -67,7 +67,7 @@ h2 {
 p {
     font-family: "Open+Sans";
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: -2px;
     text-align: justify;
     color: white;
@@ -95,5 +95,5 @@ p {
 }
 
 #kontakt {
-    background: url(bagrund/kontakt.jpg);
+    background: url(bagrund/vinogtavle.jpg);
 }

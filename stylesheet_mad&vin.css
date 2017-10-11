@@ -98,7 +98,7 @@
                 .sectionwrapper {
                     margin: 0 auto;
                     margin: 0 30vw 0 30vw;
-                    background-color: transparent;
+                    background-color: rgba(255, 255, 255, 0.65);
                     margin: 0 25vw 0 25vw;
                     padding: 1em 1em 1em 1em;
                 }
@@ -139,10 +139,10 @@
                 p {
                     font-family: "Open+Sans";
                     font-weight: 400;
-                    font-size: 1em;
+                    font-size: 1.2em;
                     margin-left: 10px;
                 }
 
                 #mad {
-                    background: url(bagrund/bagrund_mad.jpg);
+                    background: url(bagrund/madogvin.jpg);
                 }
