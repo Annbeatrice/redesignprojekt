@@ -2,6 +2,7 @@ h2,
 p {
     color: white;
 }
+
 .sectionwrapper {
     margin: 0 auto;
     margin: 0 30vw 0 30vw;
@@ -9,8 +10,6 @@ p {
     margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
-
-/************** MEDIA QUERIES ************/
 
 #kontakt {
     background: url(bagrund/vinogtavle.jpg);
