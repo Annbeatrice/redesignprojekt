@@ -207,7 +207,8 @@ footer {
 
 /************** kontakt *******/
 
-#kontakt h2 p {
+#kontakt h2,
+#kontakt p {
     color: white;
 }
 
