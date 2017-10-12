@@ -3,7 +3,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    margin: 0;
+    margin-bottom: 15px;
     border-bottom: solid black 1px;
     border-top: solid black 1px;
     padding: 10px 0;
@@ -154,13 +154,17 @@ footer {
     padding: 1em 1em 1em 1em;
 }
 
+.vin-liste {
+    width: 100%;
+    margin-left: 10px;
+}
+
 #vin .sectionwrapper ul {
     list-style-type: none;
     padding: 0;
 }
 
 #vin li {
-    text-align: center;
     padding: 5px 0 0;
 }
 
@@ -235,8 +239,11 @@ footer {
     padding-top: 1px;
 }
 
-iframe {
+.google-map {
     border: none;
+    width: 100%;
+    max-width: 400px;
+    min-height: 300px;
 }
 
 
@@ -270,34 +277,27 @@ iframe {
 @media screen and (min-width:767px) {
     #mad .sectionwrapper {
         margin: 0 auto;
-        width: 60%;
+        width: 50%;
     }
 }
 
 @media screen and (min-width:767px) {
     #vin .sectionwrapper {
         margin: 0 auto;
-        width: 60%;
+        width: 50%;
     }
 }
 
 @media screen and (min-width:767px) {
     #kontakt .sectionwrapper {
         margin: 0 auto;
-        width: 60%;
+        width: 50%;
     }
 }
 
 @media screen and (min-width:767px) {
     #om .sectionwrapper {
         margin: 0 auto;
-        width: 60%;
-    }
-}
-
-@media screen and (min-width:767px) {
-    #kontakt .column2 iframe {
-        margin: 0 auto;
-        width: 60%;
+        width: 50%;
     }
 }
