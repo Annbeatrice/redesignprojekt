@@ -99,3 +99,13 @@ p {
     font-size: 1.2em;
     margin-left: 10px;
 }
+
+footer p {
+    color: black;
+    font-size: 0.8em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}

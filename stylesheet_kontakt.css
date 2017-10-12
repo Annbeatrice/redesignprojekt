@@ -2,6 +2,7 @@ h2,
 p {
     color: white;
 }
+
 .sectionwrapper {
     margin: 0 auto;
     margin: 0 30vw 0 30vw;
@@ -10,8 +11,14 @@ p {
     padding: 1em 1em 1em 1em;
 }
 
+
 /************** MEDIA QUERIES ************/
 
 #kontakt {
-    background: url(bagrund/vinogtavle.jpg);
+    background: url(bagrund/gryde_4.jpg);
+}
+
+#kontakt h3 {
+    color: white;
+    text-align: left;
 }

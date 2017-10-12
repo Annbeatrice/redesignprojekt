@@ -42,7 +42,8 @@ img {
     color: #af1a2a;
 }
 
-#mad {
+#mad,
+#vin {
     background: url(bagrund/madogvin.jpg);
 }
 
