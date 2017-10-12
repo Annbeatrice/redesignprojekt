@@ -55,27 +55,6 @@ nav a:hover {
     background-size: cover;
 }
 
-@media screen and (min-width: 0px) (max-width: 451px) {
-    #forside {
-        background-image: url(forside/mobil.jpg);
-        height: 100vw;
-    }
-}
-
-@media screen and (min-width: 451px) and (max-width: 1024px) and (orientation: landscape) {
-    #forside {
-        background-image: url(forside/tablet_version.jpg);
-        height: 90vw;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width:2000px) {
-    #forside {
-        background-image: url(forside/desktop_final.jpg);
-        height: 40vw;
-    }
-}
-
 #splash .logo img {
     width: 100%;
 }
@@ -153,10 +132,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
-    margin: 0 30vw 0 30vw;
     background-color: rgba(255, 255, 255, 0.65);
-    margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
 
@@ -174,10 +150,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     border-bottom: solid 1px black;
-    margin: 0 auto;
-    margin: 0 30vw 0 30vw;
     background-color: rgba(255, 255, 255, 0.65);
-    margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
 
@@ -213,10 +186,7 @@ footer {
 }
 
 #kontakt .sectionwrapper {
-    margin: 0 auto;
-    margin: 0 30vw 0 30vw;
     background-color: transparent;
-    margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
 }
 
@@ -240,10 +210,7 @@ footer {
 }
 
 #om .sectionwrapper {
-    margin: 0 auto;
-    margin: 0 30vw 0 30vw;
     background-color: transparent;
-    margin: 0 25vw 0 25vw;
     padding: 1em 1em 1em 1em;
     color: white;
 }
@@ -277,4 +244,60 @@ iframe {
 
 #om {
     background: url(bagrund/final_bord.jpg);
+}
+
+@media screen and (min-width: 0px) (max-width: 451px) {
+    #forside {
+        background-image: url(forside/mobil.jpg);
+        height: 100vw;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+    #forside {
+        background-image: url(forside/tablet_version.jpg);
+        height: 90vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:2000px) {
+    #forside {
+        background-image: url(forside/desktop_final.jpg);
+        height: 40vw;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #mad .sectionwrapper {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #vin .sectionwrapper {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #kontakt .sectionwrapper {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #om .sectionwrapper {
+        margin: 0 auto;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:767px) {
+    #kontakt .column2 iframe {
+        margin: 0 auto;
+        width: 60%;
+    }
 }
