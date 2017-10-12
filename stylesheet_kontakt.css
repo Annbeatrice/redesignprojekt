@@ -1,9 +1,9 @@
-h2,
+#kontakt h2,
 p {
     color: white;
 }
 
-.sectionwrapper {
+#kontakt .sectionwrapper {
     margin: 0 auto;
     margin: 0 30vw 0 30vw;
     background-color: transparent;
