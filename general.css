@@ -1,3 +1,59 @@
+/************** Dropdown menu ************/
+
+.menutop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.dropdown-menu {
+    background: #fff;
+    padding: 5px;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu label {
+    display: block;
+    cursor: pointer;
+    background: url(img/closed.png) no-repeat left center;
+    padding: 35px 0 35px 80px;
+    width: 1vw;
+    height: 1vh;
+}
+
+input#menu {
+    display: none;
+}
+
+input:checked~label {
+    background: url(img/open.png) no-repeat left center;
+    width: 1vw;
+    height: 1vh;
+    padding: 35px 0 35px 80px;
+}
+
+input:checked~.menu-content {
+    max-height: 100%;
+}
+
+
+/************** Menu tablet desktop ************/
+
 nav {
     font-family: 'martel', serif;
     text-align: center;
@@ -125,7 +181,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(255, 255, 255, 0.93);
     padding: 1em 1em 1em 1em;
 }
 
@@ -270,7 +326,25 @@ footer {
     }
 }
 
-@media screen and (min-width: 451px) and (max-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 451px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 451px) {
+    .dropdown-menu {
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 452px) and (max-width: 2000px) {
+    .dropdown-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 452px) and (max-width: 1024px) {
     #forside {
         background-image: url(forside/image/tablet_portr%C3%A6t.jpg);
         height: 75vh;
